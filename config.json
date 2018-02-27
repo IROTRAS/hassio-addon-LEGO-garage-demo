@@ -1,0 +1,11 @@
+{
+  "name": "asdf",
+  "version": "1",
+  "slug": "asdf_stuff",
+  "hassio_api": "yes",
+  "description": "My first real add-on!",
+  "startup": "services",
+  "boot": "auto",
+  "options": {},
+  "schema": {}
+}
