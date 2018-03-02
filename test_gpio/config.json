@@ -1,0 +1,13 @@
+{
+  "name": "Test the GPIO",
+  "version": "1",
+  "slug": "test_gpio",
+  "hassio_api": "yes",
+  "description": "Testing the GPIO",
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "devices": ["/dev/mem:/dev/mem:rwm"],
+  "gpio": "true"
+}
