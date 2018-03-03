@@ -9,5 +9,6 @@
   "options": {},
   "schema": {},
   "devices": ["/dev/mem:/dev/mem:rwm"],
-  "gpio": "true"
+  "gpio": "True",
+  "privileged": "SYS_RAWIO"
 }
