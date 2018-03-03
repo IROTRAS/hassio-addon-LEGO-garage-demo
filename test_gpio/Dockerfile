@@ -5,14 +5,14 @@ ENV LANG C.UTF-8
 
 # Install requirements for add-on
 RUN apk add --no-cache \
-  # py3-pip \
-  # python3 \
-  # python3-dev \
-  # py-rpigpio
+  py3-pip \
+  python3 \
+  python3-dev \
+  py-rpigpio \
   python \
   py-pip \
   python-dev \
- && pip install RPi.GPIO
+ && pip3 install RPi.GPIO
 
 # Copy files for the python and bash scripts and set them as executable
 COPY motor_test_copy.py /
